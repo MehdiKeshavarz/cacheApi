@@ -9,9 +9,9 @@ http://localhost:8080/api/caches
 
 Request body:
 {
-    "key":"test", (String)کلیدی که برای بازیابی داده استفاده می‌شود
-    "value": "test value",  (String)مقدار یا داده‌ای که می‌خواهید ذخیره کنید
-    "timeToLiveInMinutes": (Intger)مدت‌زمان معتبر بودن داده در کش (به دقیقه) بعد از این مدت داده به‌طور خودکار حذف می‌شود
+    "key":"test", (String)
+    "value": "test value",  (String)
+    "timeToLiveInMinutes": (Intger)
 }
 
 
