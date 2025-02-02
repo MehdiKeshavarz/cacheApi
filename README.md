@@ -22,6 +22,9 @@ Response:
   "message": "Data cached successfully",
 }
 
+
+
+
 ۲. خواندن داده از کش
 برای خواندن داده از کش باید از  متد GET استفاده کنیم و key مورد نظر بخشی از اندپوینت ارسال کنیم
 http://localhost:8080/api/caches/{YourKey}
@@ -32,6 +35,8 @@ Response:
   "status": "Success",
   "data": "test value"
 }
+
+
 
 ۳. حذف داده از کش
 برای حذف کردن داده از کش باید از متد DELETE استفاده کنیم و KEY مورد نظر خودمون رو بخشی از اندپوینت ارسال کینم 
