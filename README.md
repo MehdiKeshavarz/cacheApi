@@ -24,7 +24,7 @@ Response:
 
 ۲. خواندن داده از کش
 برای خواندن داده از کش باید از  متد GET استفاده کنیم و key مورد نظر بخشی از اندپوینت ارسال کنیم
-http://localhost:8080/api/caches/{YOUr Key}
+http://localhost:8080/api/caches/{YourKey}
 
 Response:
 
@@ -35,7 +35,7 @@ Response:
 
 ۳. حذف داده از کش
 برای حذف کردن داده از کش باید از متد DELETE استفاده کنیم و KEY مورد نظر خودمون رو بخشی از اندپوینت ارسال کینم 
-http://localhost:8080/api/caches/{YOUr Key}
+http://localhost:8080/api/caches/{YourKey}
 
 Response:
 
@@ -46,5 +46,5 @@ Response:
 
 
 برای مشاهده تعداد درخواست به هر اندپوینت باید از url  زیر استفاده کنیم و مشخص کردن تگ (uri) و اندپوینت موردنظر خودمون میتوانیم تعداد درخواست ها به اون اندپوینت رو مشاهده کنیم
-http://localhost:8080/actuator/metrics/http.server.requests?tag=uri:{Your-endpoint}
+http://localhost:8080/actuator/metrics/http.server.requests?tag=uri:{YourEndpoint}
 
